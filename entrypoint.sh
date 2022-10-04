@@ -14,7 +14,7 @@ cd /wwwroot
 tar xvf wwwroot.tar.gz
 rm -rf wwwroot.tar.gz
 
-mv /conf/nginx_ss.conf /etc/nginx/sites-enabled/ss.conf
+mv /conf/nginx_ss.conf /etc/nginx/conf.d/ss.conf
 mv /conf/shadowsocks-libev_config.json /etc/shadowsocks-libev/config.json
 
 cat /etc/shadowsocks-libev/config.json
