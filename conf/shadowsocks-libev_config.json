@@ -3,7 +3,7 @@
     "server_port":"2333",
     "password":"password",
     "timeout":300,
-    "mode": "tcp_and_udp",
+    "mode": "tcp_only",
     "fast_open":false,
     "reuse_port":true,
     "no_delay":true,
