@@ -3,6 +3,9 @@
     "server_port":"2333",
     "password":"password",
     "mode": "tcp_and_udp",
+    "fast_open":true,
+    "reuse_port":true,
+    "no_delay":true,
     "plugin": "v2ray-plugin",
     "plugin_opts":"server;path=/v2ray"
 }
