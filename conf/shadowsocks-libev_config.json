@@ -2,11 +2,7 @@
     "server":"127.0.0.1",
     "server_port":"2333",
     "password":"password",
-    "timeout":300,
-    "mode": "tcp_only",
-    "fast_open":false,
-    "reuse_port":true,
-    "no_delay":true,
+    "mode": "tcp_and_udp",
     "plugin": "v2ray-plugin",
     "plugin_opts":"server;path=/v2ray"
 }
